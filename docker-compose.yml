@@ -14,3 +14,6 @@ services:
       - "./config/fml.toml:/opt/minecraft/config/fml.toml"
     restart: always
     pull_policy: always
+    tty: true
+    stdin_open: true
+
