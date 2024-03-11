@@ -11,5 +11,6 @@ services:
       - "./world:/opt/minecraft/world"
       - "./server.properties:/opt/minecraft/server.properties"
       - "./user_jvm_args.txt:/opt/minecraft/user_jvm_args.txt"
+      - "./config/fml.toml:/opt/minecraft/config/fml.toml"
     restart: always
     pull_policy: always
