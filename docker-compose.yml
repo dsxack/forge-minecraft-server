@@ -11,3 +11,4 @@ services:
       - "./world:/opt/minecraft/world"
       - "./server.properties:/opt/minecraft/server.properties"
     restart: always
+    pull_policy: always
