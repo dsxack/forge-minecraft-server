@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   forge-minecraft-server:
-    build: image
+    image: ghcr.io/dsxack/forge-minecraft-server:master
     container_name: forge-minecraft-server
     ports:
       - "25555:25555"
