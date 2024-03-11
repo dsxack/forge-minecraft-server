@@ -8,7 +8,7 @@ COPY forge-1.19.2-43.3.8-installer.jar .
 
 RUN java -jar ./forge-1.19.2-43.3.8-installer.jar --installServer
 
-RUN echo "-Xmx512M" >> ./user_jvm_args.txt
+RUN echo "-Xmx1G" >> ./user_jvm_args.txt
 RUN echo "eula=true" >> ./eula.txt
 
 CMD /opt/minecraft/run.sh
